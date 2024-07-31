@@ -14,16 +14,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
 
-    "baseUrl": "./",
-    "paths": {
-      "components/*": ["src/components/*"],
-      "contexts/*": ["src/contexts/*"],
-      "pages/*": ["src/pages/*"],
-      "routes/*": ["src/routes/*"],
-      "services/*": ["src/services/*"],
-      "styles/*": ["src/styles/*"],
-      "tests/*": ["src/tests/*"]
-    },
+    "baseUrl": "src",
     "noEmit": true,
     "jsx": "react-jsx"
   },
