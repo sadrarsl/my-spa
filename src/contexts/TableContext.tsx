@@ -8,7 +8,7 @@ import {
   QueryClientProvider,
 } from "@tanstack/react-query";
 import { fetchItems, addItem, updateItem, deleteItem } from "../services/api";
-import { Item } from "../components/models";
+import { Item } from "../components/_models";
 
 interface TableContextType {
   items: Item[];
